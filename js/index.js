@@ -69,3 +69,10 @@ nav5.textContent += siteContent['nav']['nav-item-5'];
 
 let nav6 = document.querySelector("header nav a:nth-child(6)");
 nav6.textContent += siteContent['nav']['nav-item-6'];
+
+//CTA Update
+let ctah1 = document.querySelector(".cta-text h1");
+ctah1.textContent += siteContent['cta']['h1'];
+
+let ctaButton = document.querySelector(".cta-text button");
+ctaButton.textContent += siteContent['cta']['button'];
