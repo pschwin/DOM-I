@@ -41,21 +41,11 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"]);
 
-//Update the nav
-let nav1 = document.querySelector("header nav a:nth-child(1)");
-nav1.setAttribute('href', "Services");
 
-let nav2 = document.querySelector("header nav a:nth-child(2)");
-nav2.setAttribute('href', "Product");
+//Update CTA Image
+const ctaimg = document.getElementById("cta-img");
+ctaimg.setAttribute('src', siteContent['cta']['img-src'])
 
-let nav3 = document.querySelector("header nav a:nth-child(3)");
-nav3.setAttribute('href', "Vision");
-
-let nav4 = document.querySelector("header nav a:nth-child(4)");
-nav4.setAttribute('href', "Features");
-
-let nav5 = document.querySelector("header nav a:nth-child(5)");
-nav5.setAttribute('href', "About");
-
-let nav6 = document.querySelector("header nav a:nth-child(6)");
-nav6.setAttribute('href', "Contact");
+//Update middle content image
+let nav1 = document.getElementById("middle-img");
+nav1.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
