@@ -47,5 +47,25 @@ const ctaimg = document.getElementById("cta-img");
 ctaimg.setAttribute('src', siteContent['cta']['img-src'])
 
 //Update middle content image
-let nav1 = document.getElementById("middle-img");
-nav1.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+let img1 = document.getElementById("middle-img");
+img1.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+
+//Update Nav
+let nav1 = document.querySelector("header nav a:nth-child(1)");
+nav1.textContent += "Services";
+
+let nav2 = document.querySelector("header nav a:nth-child(2)");
+nav2.textContent += siteContent['nav']['nav-item-2'];
+
+let nav3 = document.querySelector("header nav a:nth-child(3)");
+nav3.textContent += siteContent['nav']['nav-item-3'];
+
+let nav4 = document.querySelector("header nav a:nth-child(4)");
+nav4.textContent += siteContent['nav']['nav-item-4'];
+
+let nav5 = document.querySelector("header nav a:nth-child(5)");
+nav5.textContent += siteContent['nav']['nav-item-5'];
+
+let nav6 = document.querySelector("header nav a:nth-child(6)");
+nav6.textContent += siteContent['nav']['nav-item-6'];
