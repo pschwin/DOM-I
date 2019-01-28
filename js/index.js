@@ -117,4 +117,22 @@ visionh4.textContent += siteContent['main-content']['vision-h4'];
 let visionp = document.querySelectorAll('.main-content .bottom-content .text-content p')[2];
 visionp.textContent += siteContent["main-content"]["vision-content"];
 
-//
+//Contact
+
+let contacth4 = document.querySelector('.contact h4');
+contacth4.textContent += siteContent['contact']["contact-h4"];
+
+let contactp1 = document.querySelector('.contact p');
+contactp1.textContent += siteContent['contact']['address'];
+
+let contactp2 = document.querySelectorAll('.contact p')[1];
+contactp2.textContent += siteContent['contact']['phone'];
+
+let contactp3 = document.querySelectorAll('.contact p')[2];
+contactp3.textContent += siteContent['contact']['email'];
+
+//Footer
+
+let footer = document.querySelector('footer p');
+footer.textContent += siteContent['footer']['copyright']
+
