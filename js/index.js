@@ -55,20 +55,38 @@ img1.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 let nav1 = document.querySelector("header nav a:nth-child(1)");
 nav1.textContent += "Services";
 
+nav1.style.color = "green";
+
+
 let nav2 = document.querySelector("header nav a:nth-child(2)");
 nav2.textContent += siteContent['nav']['nav-item-2'];
+
+nav2.style.color = "green";
 
 let nav3 = document.querySelector("header nav a:nth-child(3)");
 nav3.textContent += siteContent['nav']['nav-item-3'];
 
+nav3.style.color = "green";
+
 let nav4 = document.querySelector("header nav a:nth-child(4)");
 nav4.textContent += siteContent['nav']['nav-item-4'];
+
+nav4.style.color = "green";
 
 let nav5 = document.querySelector("header nav a:nth-child(5)");
 nav5.textContent += siteContent['nav']['nav-item-5'];
 
+nav5.style.color = "green";
+
 let nav6 = document.querySelector("header nav a:nth-child(6)");
 nav6.textContent += siteContent['nav']['nav-item-6'];
+
+nav6.style.color = "green";
+
+//NEW Navigation
+
+let newNav1 = document.createElement("a");
+document.body.appendChild(newNav1);
 
 //CTA Update
 let ctah1 = document.querySelector(".cta-text h1");
@@ -135,4 +153,9 @@ contactp3.textContent += siteContent['contact']['email'];
 
 let footer = document.querySelector('footer p');
 footer.textContent += siteContent['footer']['copyright']
+
+//Use appendChild and prepend
+
+
+
 
