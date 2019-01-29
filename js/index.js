@@ -83,10 +83,17 @@ nav6.textContent += siteContent['nav']['nav-item-6'];
 
 nav6.style.color = "green";
 
-//NEW Navigation
+// //NEW Navigation
 
-let newNav1 = document.createElement("a");
-document.body.appendChild(newNav1);
+//Parent
+const Nav = document.querySelector('header nav');
+
+//New Nav
+
+let newNav = document.createElement('a');
+newNav.textContent = 'new 1';
+Nav.appendChild(newNav);
+
 
 //CTA Update
 let ctah1 = document.querySelector(".cta-text h1");
